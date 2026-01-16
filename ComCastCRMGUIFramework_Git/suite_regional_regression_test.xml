@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+	 <parameter name="BROWSER" value="chrome"></parameter>
+		<classes>
+			<class
+				name="contact_test_group_execution_and_parallel_execution.CreateContactTest">
+				<methods>
+					<include name="createContactWithSupportDate" />
+				</methods>
+			</class>
+			<class
+				name="org_test_group_execution_and_parallel_execution.CreateOrganizationTest">
+				<methods>
+					<include name="createOrganizationWithIndustry" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite> <!--
+Suite -->

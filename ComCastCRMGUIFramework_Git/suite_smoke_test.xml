@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+   <groups>
+      <run> 
+         <include name="Smoke Test"/>
+      </run>
+   
+   </groups>
+  <test name="Test">
+   <parameter name="BROWSER" value="chrome"></parameter>
+    <classes>
+      <class name="contact_test_group_execution_and_parallel_execution.CreateContactTest"/>
+      <class name="org_test_group_execution_and_parallel_execution.CreateOrganizationTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

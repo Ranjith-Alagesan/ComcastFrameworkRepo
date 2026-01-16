@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="com.crm.comcast.contacttest_using_testng.Create_Sample_ContactTest"/>
+      <class name="com.crm.comcast.orgtest_using_testng.Create_Sample_OrgTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
