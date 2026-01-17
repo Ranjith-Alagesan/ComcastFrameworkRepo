@@ -4,7 +4,5 @@ public class TroubleTicket_Page {
 	
 	
 	// this class is created by vishwa
-	//code1
-	//code2
-
+	// created by vishwa
 }
