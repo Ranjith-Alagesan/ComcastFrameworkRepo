@@ -9,7 +9,7 @@ public class LeadPage {
 	public LeadPage(WebDriver driver) {
 		PageFactory.initElements(driver,this);
 	}
-	@FindBy(xpath = "//img[@src='themes/softed/images/btnL3Add.gif'] ")
+	@FindBy(xpath = "//img[@src='themes/softed/images/btnL3Add.gif']  ")
 	private WebElement createNewLeadBtn;
 	public WebElement getCreateNewLeadBtn() {
 		return createNewLeadBtn;
